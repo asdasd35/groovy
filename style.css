@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    background-image: url(https://images4.alphacoders.com/909/thumb-1920-909912.png);
+    color: white;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: rebeccapurple;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
